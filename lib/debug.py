@@ -5,7 +5,7 @@ from models.department import Department
 from models.employee import Employee
 import ipdb
 
-
+ 
 def reset_database():
     Employee.drop_table()
     Department.drop_table()
